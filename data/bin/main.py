@@ -22,4 +22,4 @@ cols = ['volume', 'title', 'text', 'text_tokenized'] # TODO: add volume type and
 corpus_df = pd.DataFrame(volumes, columns=cols)
 
 # Export as csv
-corpus_df.to_csv('../tolstoy_corpus.csv', index=False)
+corpus_df.to_csv('data/tolstoy_corpus.csv', index=False)
