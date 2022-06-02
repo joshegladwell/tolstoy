@@ -1,1 +1,6 @@
 .DS_Store
+
+tests/.ipynb_checkpoints/
+tests/__pycache__/
+
+data/bin/__pycache__/
